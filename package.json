@@ -1,0 +1,344 @@
+{
+  "name": "@railwise/agent-pack",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "license": "MIT",
+  "bin": {
+    "railwise-skill": "./bin/install.js",
+    "railwise-agent-pack": "./bin/install.js"
+  },
+  "files": [
+    "assets",
+    "bin"
+  ],
+  "agentAssets": [
+    {
+      "kind": "agent",
+      "name": "chief_manager",
+      "dir": "assets/agent/chief_manager"
+    },
+    {
+      "kind": "agent",
+      "name": "commercial_specialist",
+      "dir": "assets/agent/commercial_specialist"
+    },
+    {
+      "kind": "agent",
+      "name": "data_analyst",
+      "dir": "assets/agent/data_analyst"
+    },
+    {
+      "kind": "agent",
+      "name": "docs",
+      "dir": "assets/agent/docs"
+    },
+    {
+      "kind": "agent",
+      "name": "duplicate-pr",
+      "dir": "assets/agent/duplicate-pr"
+    },
+    {
+      "kind": "agent",
+      "name": "qa_inspector",
+      "dir": "assets/agent/qa_inspector"
+    },
+    {
+      "kind": "agent",
+      "name": "qa_reviewer",
+      "dir": "assets/agent/qa_reviewer"
+    },
+    {
+      "kind": "agent",
+      "name": "solution_architect",
+      "dir": "assets/agent/solution_architect"
+    },
+    {
+      "kind": "agent",
+      "name": "technical_writer",
+      "dir": "assets/agent/technical_writer"
+    },
+    {
+      "kind": "agent",
+      "name": "translator",
+      "dir": "assets/agent/translator"
+    },
+    {
+      "kind": "agent",
+      "name": "triage",
+      "dir": "assets/agent/triage"
+    },
+    {
+      "kind": "command",
+      "name": "ai-deps",
+      "dir": "assets/command/ai-deps"
+    },
+    {
+      "kind": "command",
+      "name": "bid-prepare",
+      "dir": "assets/command/bid-prepare"
+    },
+    {
+      "kind": "command",
+      "name": "commit",
+      "dir": "assets/command/commit"
+    },
+    {
+      "kind": "command",
+      "name": "daily-report",
+      "dir": "assets/command/daily-report"
+    },
+    {
+      "kind": "command",
+      "name": "data-check",
+      "dir": "assets/command/data-check"
+    },
+    {
+      "kind": "command",
+      "name": "emergency-response",
+      "dir": "assets/command/emergency-response"
+    },
+    {
+      "kind": "command",
+      "name": "issues",
+      "dir": "assets/command/issues"
+    },
+    {
+      "kind": "command",
+      "name": "learn",
+      "dir": "assets/command/learn"
+    },
+    {
+      "kind": "command",
+      "name": "monthly-report",
+      "dir": "assets/command/monthly-report"
+    },
+    {
+      "kind": "command",
+      "name": "payment-reminder",
+      "dir": "assets/command/payment-reminder"
+    },
+    {
+      "kind": "command",
+      "name": "rmslop",
+      "dir": "assets/command/rmslop"
+    },
+    {
+      "kind": "command",
+      "name": "safety-check",
+      "dir": "assets/command/safety-check"
+    },
+    {
+      "kind": "command",
+      "name": "spellcheck",
+      "dir": "assets/command/spellcheck"
+    },
+    {
+      "kind": "command",
+      "name": "trend-analysis",
+      "dir": "assets/command/trend-analysis"
+    },
+    {
+      "kind": "skill",
+      "name": "bidding-knowledge",
+      "dir": "assets/skill/bidding-knowledge"
+    },
+    {
+      "kind": "skill",
+      "name": "bun-file-io",
+      "dir": "assets/skill/bun-file-io"
+    },
+    {
+      "kind": "skill",
+      "name": "canvas-design",
+      "dir": "assets/skill/canvas-design"
+    },
+    {
+      "kind": "skill",
+      "name": "data-analysis",
+      "dir": "assets/skill/data-analysis"
+    },
+    {
+      "kind": "skill",
+      "name": "docx-generation",
+      "dir": "assets/skill/docx-generation"
+    },
+    {
+      "kind": "skill",
+      "name": "excel-operations",
+      "dir": "assets/skill/excel-operations"
+    },
+    {
+      "kind": "skill",
+      "name": "frontend-design",
+      "dir": "assets/skill/frontend-design"
+    },
+    {
+      "kind": "skill",
+      "name": "humanizer",
+      "dir": "assets/skill/humanizer"
+    },
+    {
+      "kind": "skill",
+      "name": "monitoring-design",
+      "dir": "assets/skill/monitoring-design"
+    },
+    {
+      "kind": "skill",
+      "name": "report-writing",
+      "dir": "assets/skill/report-writing"
+    },
+    {
+      "kind": "skill",
+      "name": "standard-reference",
+      "dir": "assets/skill/standard-reference"
+    },
+    {
+      "kind": "template",
+      "name": "adjustment-trend",
+      "dir": "assets/template/adjustment-trend"
+    },
+    {
+      "kind": "template",
+      "name": "bid-technical-proposal",
+      "dir": "assets/template/bid-technical-proposal"
+    },
+    {
+      "kind": "template",
+      "name": "compliance-review",
+      "dir": "assets/template/compliance-review"
+    },
+    {
+      "kind": "template",
+      "name": "field-data-qa",
+      "dir": "assets/template/field-data-qa"
+    },
+    {
+      "kind": "template",
+      "name": "monthly-monitor-report",
+      "dir": "assets/template/monthly-monitor-report"
+    },
+    {
+      "kind": "template",
+      "name": "project-ppt",
+      "dir": "assets/template/project-ppt"
+    },
+    {
+      "kind": "template",
+      "name": "schema",
+      "dir": "assets/template/schema"
+    },
+    {
+      "kind": "theme",
+      "name": "mytheme",
+      "dir": "assets/theme/mytheme"
+    },
+    {
+      "kind": "tool",
+      "name": "angle_convert",
+      "dir": "assets/tool/angle_convert"
+    },
+    {
+      "kind": "tool",
+      "name": "axial_force",
+      "dir": "assets/tool/axial_force"
+    },
+    {
+      "kind": "tool",
+      "name": "chart_generator",
+      "dir": "assets/tool/chart_generator"
+    },
+    {
+      "kind": "tool",
+      "name": "control_network",
+      "dir": "assets/tool/control_network"
+    },
+    {
+      "kind": "tool",
+      "name": "coord_transform",
+      "dir": "assets/tool/coord_transform"
+    },
+    {
+      "kind": "tool",
+      "name": "cpiii_adjustment",
+      "dir": "assets/tool/cpiii_adjustment"
+    },
+    {
+      "kind": "tool",
+      "name": "cross_section",
+      "dir": "assets/tool/cross_section"
+    },
+    {
+      "kind": "tool",
+      "name": "deformation_rate",
+      "dir": "assets/tool/deformation_rate"
+    },
+    {
+      "kind": "tool",
+      "name": "distance_calculator",
+      "dir": "assets/tool/distance_calculator"
+    },
+    {
+      "kind": "tool",
+      "name": "excel_export",
+      "dir": "assets/tool/excel_export"
+    },
+    {
+      "kind": "tool",
+      "name": "format_parser",
+      "dir": "assets/tool/format_parser"
+    },
+    {
+      "kind": "tool",
+      "name": "github-pr-search",
+      "dir": "assets/tool/github-pr-search"
+    },
+    {
+      "kind": "tool",
+      "name": "github-triage",
+      "dir": "assets/tool/github-triage"
+    },
+    {
+      "kind": "tool",
+      "name": "inclinometer",
+      "dir": "assets/tool/inclinometer"
+    },
+    {
+      "kind": "tool",
+      "name": "monitoring_csv",
+      "dir": "assets/tool/monitoring_csv"
+    },
+    {
+      "kind": "tool",
+      "name": "pile_stakeout",
+      "dir": "assets/tool/pile_stakeout"
+    },
+    {
+      "kind": "tool",
+      "name": "report_export",
+      "dir": "assets/tool/report_export"
+    },
+    {
+      "kind": "tool",
+      "name": "shield_guidance",
+      "dir": "assets/tool/shield_guidance"
+    },
+    {
+      "kind": "tool",
+      "name": "standard_query",
+      "dir": "assets/tool/standard_query"
+    },
+    {
+      "kind": "tool",
+      "name": "survey_calculator",
+      "dir": "assets/tool/survey_calculator"
+    },
+    {
+      "kind": "tool",
+      "name": "water_level",
+      "dir": "assets/tool/water_level"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
